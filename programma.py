@@ -18,9 +18,17 @@ def nolasit(faila_nosaukums):
 vardi=["Anna", "Maija", "Jānis", "Kaspars"]
 uzvardi=["Bērziņa", "Paija", "Ozols", "Kasprets"]
 vecums=[23,150,89,11]
+dzimums= ["s", "s", "v", "v"]
+alga=
 
 ierakstit("","faili/cilveki.txt")
-
+for i in range( len(vardi) ):
+    if dzimums[i] == "s":
+        rakstamais="sieviete"
+    else:
+        rakstamais="vīrietis"
+    teksts="{} {} - {}, {},{} \n".format(vardi[i], uzvardi[i], vecums[i], rakstamais)
+    pierakstit(teksts,"faili/cilveki.txt")
 
 
 #pierakstit("Sveiki, sienāži, šodien ir darbadiena!\n\"\n", "faili/teksts.txt")
