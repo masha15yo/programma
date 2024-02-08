@@ -1,4 +1,4 @@
-Anna Bērziņa - 23, sieviete,900 
-Maija Paija - 150, sieviete,3000 
-Jānis Ozols - 89, vīrietis,1500 
-Kaspars Kasprets - 11, vīrietis,2000 
+Anna Bērziņa - 23, sieviete 
+Maija Paija - 150, sieviete 
+Jānis Ozols - 89, vīrietis 
+Kaspars Kasprets - 11, vīrietis 
